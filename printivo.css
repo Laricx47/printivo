@@ -143,3 +143,78 @@ ul {
 .nigeria{
     padding-left: 100px;
 }
+.complanies-parent{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.parentfor3{
+    padding: 100px;
+    background-color: #edf6fd;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.child3{
+    overflow: hidden;
+    padding-top: 0%;
+    border: none;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.171) ;
+}
+.what-customer-say-div{
+    padding-left: 100px;
+    padding-top: 50px;
+    background-color:#edf6fd ;
+    margin-top: 80px;
+}
+.count-on-us{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.Count-on-us-parent{
+    padding: 100px;
+    padding-top: 0%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.count-child{
+    overflow: hidden;
+    border: none;
+    width: 500px;
+    height: 200px;
+}
+.our-amazing-work2{
+    background-color:#f7f6f4 ;
+}
+.our-amazing-work{
+    background-color:#f7f6f4 ;
+    padding: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.last-div{
+    background-color:#384a62 ;
+    height: 400px;
+    padding: 100px;
+    display: flex;
+    color: white;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.copyright{
+    background-color: #cbcac8 ;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.copytext{
+    margin: 25px;
+}
