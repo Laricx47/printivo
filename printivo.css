@@ -1,7 +1,145 @@
 
-
-.first-navbar{
-    color: #f7f6f4;
+body{
+    padding-left: 200px;
+    padding-right: 200px;
 }
+.first-navbar{
+    background-color: #f7f6f4;
+}
+.second-navbar{
+    background-color: #ece8d9;
+}
+.logo{
+    padding-left: 100px;
+}
+.nav-link{
+    margin-right: 12px;
+    font-weight: 600;    
+}
+.nav-link2{
+    padding-left: 70px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.cart-logo{
+    padding-left: 70px;
+}
+.card-hand-div{
+    background-color: #ece8d9;
+    padding-top: 100px;
+    height: 525px;
+}
+.card-hand{
+    float: right;
+    transform: translateY(-117px);
+}
+.Quality{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 70px;
+    color: #384a62;
+    padding-left: 100px;
+    margin-bottom: auto;
+}
+.Shipped{
+    color: grey;
+    padding-left: 100px;
+}
+.search{
+    margin-left: 100px;
+    width: 600px;
+    height: 70px;
+    border: none;
+}
+.search2{
+    padding-left: 100px;
+}
+.pink-div{
+    background-color: #f3b1cd;
+    height: 80px;
+}
+.RAIN20{
+    text-align: center;
+    /* padding-left: 450px; */
+}
+a{
+    color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0%;
+    color:#384a62;
+    font-weight: 600;
 
-#ece8d9
+}
+.first-navbar-text {
+    display: flex;
+    margin-left: 100px;
+}
+.track{
+    padding-left: 50px;
+}
+.discover{
+    padding-left: 50px;
+}
+.contact-number{
+    color: blue;
+}
+.whatsapp{
+    margin-right: 400px;
+}
+.ul-1{
+    font-size: 13px;
+}
+.ul-2{
+    font-size: 13px;
+}
+.market-list{
+    padding: 100px;
+}
+.price{
+    color: #384a62;
+}
+.price-button{
+    background-color: #d77f81;
+    border: none;
+    
+}
+.card-border{
+    border: solid rgba(128, 128, 128, 0.11) 1px;
+    box-shadow: 0px 1px 10px 0px rgba(128, 128, 128, 0.137); 
+}
+.market-list{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    padding: 100px;
+}
+.market-list2{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    padding: 100px;
+}
+.popular{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.popular-product{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #384a62;
+}
+.all-product{
+    color: #d77f81;
+    font-weight: 500;
+    font-size: large;
+}
+.nigeria{
+    padding-left: 100px;
+}
