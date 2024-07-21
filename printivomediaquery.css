@@ -1,0 +1,101 @@
+
+@media screen and (max-width:1700px) {
+    body{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .top-nav{
+        display: none;
+    }
+}
+@media screen and (width < 1200px) {
+    .card-hand{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1800px) {
+    .market-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .market-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .market-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .market-list{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:850px) {
+    .market-list2{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+@media screen and (width < 750px) {
+    .search{
+        width: 50vmin;
+    }
+}
+@media screen and (max-width:750px) {
+    .Quality{
+        font-size:40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .parentfor3, .Count-on-us-parent, .our-amazing-work, .last-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 50px;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .parentfor3, .Count-on-us-parent, .our-amazing-work, .last-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 1300px) and (min-width: 100px) {
+    .complany-list{
+        width: 800px;
+    }
+    
+}
+@media screen and (max-width: 900px) and (min-width: 100px) {
+    .complany-list{
+        width: 450px;
+    } 
+}
+@media screen and (max-width: 580px) and (min-width: 100px) {
+    .complany-list{
+        width: 350px;
+    } 
+}
+/* @media screen and  (max-width:850px)  {
+    .card{
+        width: 1fr;
+    }
+} */
+
+
