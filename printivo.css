@@ -3,8 +3,14 @@ body{
     padding-left: 200px;
     padding-right: 200px;
 }
+p{
+    color:#384a62;
+}
 .first-navbar{
     background-color: #f7f6f4;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
 }
 .second-navbar{
     background-color: #ece8d9;
@@ -27,11 +33,9 @@ body{
 .card-hand-div{
     background-color: #ece8d9;
     padding-top: 100px;
-    height: 525px;
-}
-.card-hand{
-    float: right;
-    transform: translateY(-117px);
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
 }
 .Quality{
     font-family: 'Times New Roman', Times, serif;
@@ -44,12 +48,14 @@ body{
 .Shipped{
     color: grey;
     padding-left: 100px;
+    /* font-weight: bold; */
 }
 .search{
     margin-left: 100px;
     width: 600px;
     height: 70px;
     border: none;
+    padding-left: 20px;
 }
 .search2{
     padding-left: 100px;
@@ -60,7 +66,6 @@ body{
 }
 .RAIN20{
     text-align: center;
-    /* padding-left: 450px; */
 }
 a{
     color: black;
@@ -83,10 +88,20 @@ ul {
     padding-left: 50px;
 }
 .contact-number{
-    color: blue;
+    color: #1da1f2;
+    font-weight: 600;
 }
-.whatsapp{
-    margin-right: 400px;
+.location{
+    border: solid 1px;
+    border-radius: 30px;
+    padding: 6px;
+    border-color: rgba(128, 128, 128, 0.329);
+    height: 40px;
+}
+.nigeria1{
+    font-size: small;
+    color: gray;
+    margin-left:4px ;
 }
 .ul-1{
     font-size: 13px;
@@ -148,21 +163,19 @@ ul {
     padding-top: 50px;
 }
 .parentfor3{
-    padding: 100px;
+    padding: 120px;
     background-color: #edf6fd;
-    height: 400px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 50px;
 }
 .child3{
-    overflow: hidden;
     padding-top: 0%;
     border: none;
-    width: 500px;
-    height: 200px;
     background-color: white;
-    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.171) ;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.171);
+    gap: 20px;
 }
 .what-customer-say-div{
     padding-left: 100px;
@@ -170,23 +183,24 @@ ul {
     background-color:#edf6fd ;
     margin-top: 80px;
 }
+.twitter{
+    color: #1da1f2;
+}
 .count-on-us{
     padding-left: 100px;
     padding-top: 100px;
 }
 .Count-on-us-parent{
+    border: none;
     padding: 100px;
-    padding-top: 0%;
-    height: 300px;
+    padding: 0%;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    padding-bottom: 50px;
 }
 .count-child{
-    overflow: hidden;
     border: none;
     width: 500px;
-    height: 200px;
 }
 .our-amazing-work2{
     background-color:#f7f6f4 ;
@@ -208,6 +222,15 @@ ul {
     overflow: hidden;
     justify-content: space-between;
 }
+.last-div-text{
+    color: white;
+}
+.wheat{
+    color: wheat;
+}
+.payment{
+    transform: translateY(-30px);
+}
 
 .copyright{
     background-color: #cbcac8 ;
@@ -217,4 +240,28 @@ ul {
 }
 .copytext{
     margin: 25px;
+}
+.cursor-pointer{
+    cursor: pointer;
+
+}
+.send-message{
+    background-color:#f7279e;
+    position: fixed;
+    bottom:0;
+    left: 1%;
+    padding: 8px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 30px;
+    border: none;
+    border-top-left-radius:  5px;
+    border-top-right-radius:  5px;
+}
+.product-pics{
+   transition: 0.5s ease-in-out;
+}
+.product-pics:hover{
+   transform: scale(1.1);
+   transition: 0.5s;
 }
